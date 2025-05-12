@@ -6,7 +6,7 @@ const serverless = require('serverless-http')
 app.use(cors())
 app.use(express.json())
 
-app.get('/', (req, res) =>{
+app.get('/index', (req, res) =>{
     res.send("success");
 })
 
